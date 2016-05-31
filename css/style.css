@@ -1,0 +1,173 @@
+/* General Styles */
+
+/*Body font*/ 
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Header dimensions*/ 
+
+header {
+  height: 100vh;
+}
+
+/*This determines the how large or small each different section is */ 
+
+section {
+  padding: 100px 0;
+}
+
+/*This positions how much space is for the footer */ 
+
+footer {
+  padding: 50px 0 20px; /*140px 0 200px*/
+}
+
+/*Margin for different text sizes*/ 
+
+h1, h2, h4, h6, p, ul {
+  margin: 0px 0 32px;
+}
+
+/*h1 font size, margin, height*/ 
+
+h1 {
+  margin-top: 30vh;
+  font-size: 5em;
+  line-height: 80px;
+}
+
+/*h2 font size, height*/ 
+
+h2 {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+/*h4 font size, height*/ 
+
+h4 {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+/*h6 font size, height*/ 
+
+h6 {
+  font-size: 19px;
+  line-height: 31px;
+}
+
+/*p font size, margin, spacing */ 
+
+p {
+  font-size: 17px;
+  line-height: 31px;
+  letter-spacing: 0.16px;
+}
+
+/* Section Styles */
+
+/*About section background color*/
+
+.about {
+  background-color: #ffffff;
+}
+
+/*Padua website background color */
+
+.blue-project {
+  background-color: #0098b4;
+}
+
+/*Snake game background color*/
+
+.gray-project {
+  background-color: #232c39;
+}
+
+/*How to survive freshman year section background color*/
+
+.orange-project {
+  background-color: #ff7268;
+}
+
+/*Contact section background color*/
+
+.contact {
+  background-color: #161616;
+}
+
+/*Footer section background color*/
+
+footer {
+  background-color: #fff;
+}
+
+/* Typography Styles */
+.light-type h2,
+.light-type h4 {
+  color: rgba(255,255,255,.9);
+}
+
+.light-type p {
+  color: rgba(255,255,255,.75);
+}
+
+.dark-type h2,
+.dark-type h4 {
+  color: rgba(0,0,0,.9);
+}
+
+.dark-type p {
+  color: rgba(0,0,0,.75);
+}
+
+header h1,
+header ul {
+  text-align: center;
+}
+
+/* Button Styles */
+.btn {
+ border: 1px solid rgba(0,0,0,.75);
+ font-size: 17px;
+ padding: 7px 12px;
+ font-weight: normal;
+ margin: 6px 0;
+ display: inline-block;
+ margin-right: 12px;
+ text-decoration: none;
+ min-width: 120px;
+}
+
+.btn:focus {
+  outline:0;
+}
+
+.btn-dark {
+ background: rgba(0,0,0,0);
+ color: rgba(0,0,0,.75);
+ border: 1px solid rgba(0,0,0,.75);
+}
+
+.btn-dark:hover, .btn-dark:active {
+  background: rgba(0,0,0,0);
+  color: rgba(0,0,0,1);
+  border: 1px solid rgba(0,0,0,1);
+}
+
+.btn-light {
+ background: rgba(0,0,0,0);
+ color: rgba(255,255,255,.75);
+ border: 1px solid rgba(255,255,255,.75);
+}
+
+.btn-light:hover, .btn-light:active {
+  background: rgba(0,0,0,0);
+  color: rgba(255,255,255,1);
+  border: 1px solid rgba(255,255,255,1);
+}
+/* Button ends*/
+
